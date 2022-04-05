@@ -7,25 +7,26 @@
 
 import SwiftUI
 
-struct SecondView: View {
-	let name: String
-
-	var body: some View {
-		Text("Hello, \(name)!")
-	}
-}
 struct ContentView: View {
-	@State private var showingSheet = false
+	@State private var numbers = [Int]()
+	@State private var currentNumber = 1
 
 	var body: some View {
-		Button("Show Sheet") {
-			showingSheet.toggle()
-		}
-		.sheet(isPresented: $showingSheet) {
-			SecondView(name: "@twostraws")
+		VStack {
+			List {
+				ForEach(numbers, id: \.self) {
+					Text("Row \($0)")
+				}
+			}
+
+			Button("Add Number") {
+				numbers.append(currentNumber)
+				currentNumber += 1
+			}
 		}
 	}
 }
+
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
 		ContentView()
