@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A8917FF27FDE95200EB9E50 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917FE27FDE95200EB9E50 /* ExpenseItem.swift */; };
 		0A89180127FDE98F00EB9E50 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89180027FDE98F00EB9E50 /* Expenses.swift */; };
+		0AA9DADF28006D8300FD39C6 /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9DADE28006D8300FD39C6 /* FormatStyle-LocalCurrency.swift */; };
 		0ACDE34927FDEF850017A9F2 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDE34827FDEF850017A9F2 /* AddView.swift */; };
 		0ADF7ECD27FC75EC006A720D /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF7ECC27FC75EC006A720D /* iExpenseApp.swift */; };
 		0ADF7ECF27FC75EC006A720D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF7ECE27FC75EC006A720D /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		0A8917FE27FDE95200EB9E50 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		0A89180027FDE98F00EB9E50 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		0AA9DADE28006D8300FD39C6 /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
 		0ACDE34827FDEF850017A9F2 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		0ADF7EC927FC75EC006A720D /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADF7ECC27FC75EC006A720D /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				0ADF7ECC27FC75EC006A720D /* iExpenseApp.swift */,
 				0ADF7ECE27FC75EC006A720D /* ContentView.swift */,
+				0AA9DADE28006D8300FD39C6 /* FormatStyle-LocalCurrency.swift */,
 				0ACDE34827FDEF850017A9F2 /* AddView.swift */,
 				0A8917FE27FDE95200EB9E50 /* ExpenseItem.swift */,
 				0A89180027FDE98F00EB9E50 /* Expenses.swift */,
@@ -149,6 +152,7 @@
 				0A89180127FDE98F00EB9E50 /* Expenses.swift in Sources */,
 				0ADF7ECF27FC75EC006A720D /* ContentView.swift in Sources */,
 				0ACDE34927FDEF850017A9F2 /* AddView.swift in Sources */,
+				0AA9DADF28006D8300FD39C6 /* FormatStyle-LocalCurrency.swift in Sources */,
 				0A8917FF27FDE95200EB9E50 /* ExpenseItem.swift in Sources */,
 				0ADF7ECD27FC75EC006A720D /* iExpenseApp.swift in Sources */,
 			);
